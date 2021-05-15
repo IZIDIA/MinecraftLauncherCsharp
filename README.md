@@ -9,6 +9,7 @@
 То самое приложение, которое строит проект за пользователя:
 
 ✅Google Диск: https://drive.google.com/drive/folders/12fvVqE5zGFeGS..
+
 ✅Яндекс диск: https://disk.yandex.ru/d/d3x5ePKItfnXFA?w=1
 
 PS. По ссылками выше также находятся все нужные скрипты для работы системы аутентификации.
