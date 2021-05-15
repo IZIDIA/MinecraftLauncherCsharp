@@ -10,7 +10,7 @@
 
 То самое приложение, которое строит проект за пользователя:
 
-✅Google Диск: https://drive.google.com/drive/folders/12fvVqE5zGFeGS..
+✅Google Диск: https://drive.google.com/drive/folders/12fvVqE5zGFeGSyscrnxUjw3H5WioJhe8
 
 ✅Яндекс диск: https://disk.yandex.ru/d/d3x5ePKItfnXFA?w=1
 
