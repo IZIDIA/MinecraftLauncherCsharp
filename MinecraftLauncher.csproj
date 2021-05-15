@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>MainIco.ico</ApplicationIcon>
+    <AssemblyName>MinecraftLauncher</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="blake3_dotnet.dll" />
+    <None Remove="source\ActiveOpt.png" />
+    <None Remove="source\back_logo.jpg" />
+    <None Remove="source\check.png" />
+    <None Remove="source\close_act.png" />
+    <None Remove="source\close_nonAct.png" />
+    <None Remove="source\DarkBack.png" />
+    <None Remove="source\DarkBackBlur.png" />
+    <None Remove="source\enderman.png" />
+    <None Remove="source\hidden_act.png" />
+    <None Remove="source\hidden_nonact.png" />
+    <None Remove="source\MainIco.ico" />
+    <None Remove="source\MainLogo.png" />
+    <None Remove="source\NonActiveOpt.png" />
+    <None Remove="source\ptgi-10.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="source\ActiveOpt.png" />
+    <Resource Include="source\check.png" />
+    <Resource Include="source\close_act.png" />
+    <Resource Include="source\close_nonAct.png" />
+    <Resource Include="source\DarkBackBlur.png" />
+    <Resource Include="source\enderman.png" />
+    <Resource Include="source\hidden_act.png" />
+    <Resource Include="source\hidden_nonact.png" />
+    <Resource Include="source\MainIco.ico" />
+    <Resource Include="source\MainLogo.png" />
+    <Resource Include="source\NonActiveOpt.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
